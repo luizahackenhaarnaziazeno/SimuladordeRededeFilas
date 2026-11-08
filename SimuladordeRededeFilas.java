@@ -3,7 +3,7 @@ import java.util.Random;
 import java.util.HashMap;
 import java.util.Comparator;
 
-public class t1 {
+public class SimuladordeRededeFilas {
 
     // Constantes de Simulação
     private static final int NUM_RANDOMS = 100000;
