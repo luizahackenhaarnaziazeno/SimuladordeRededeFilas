@@ -1,6 +1,7 @@
 <div align="center">
   
 ## Simulador de Rede de Filas
+</div>
   
 ## 🎯 Sobre o Projeto
 O projeto consiste em um simulador de eventos discretos desenvolvido em Java para modelar uma rede de três filas interconectadas. O algoritmo avalia o comportamento de um sistema de atendimento através do cálculo de tempos acumulados, probabilidades de estado e contagem de clientes perdidos. Para garantir a reprodutibilidade dos testes, utiliza-se uma semente fixa (42) na geração de 100.000 números pseudoaleatórios.
@@ -44,6 +45,8 @@ O fluxo de simulação é baseado no processamento cronológico de eventos:
 * **3. Processamento de Chegadas (`Arrival`):** Quando um cliente entra no sistema, o cronômetro do estado atual da fila é contabilizado. Se houver espaço, o cliente é aceito; caso a fila esteja cheia, é marcado como cliente perdido. Se houver capacidade de atendimento livre, um evento de saída é agendado. Se o evento ocorrer na Fila 1, a próxima chegada externa já é colocada no calendário de eventos.
 * **4. Processamento de Saídas (`Departure`):** O cliente deixa o serviço e o tempo ocupado pelo estado anterior é registrado. O servidor liberado avalia se há outros clientes esperando; se sim, sorteia-se um novo tempo de serviço e um novo evento de saída é agendado. O cliente recém-atendido é então direcionado (roteado probabilisticamente) de imediato para a próxima fila ou para fora do sistema.
 * **5. Finalização:** O laço de repetição finaliza quando o limite de números aleatórios se esgota ou quando não há mais eventos agendados. Em seguida, relatórios estatísticos contendo o tempo acumulado e a distribuição das probabilidades para cada estado de cada fila são apresentados ao usuário.
+
+<div align="center">
 
 
 # Autora:
