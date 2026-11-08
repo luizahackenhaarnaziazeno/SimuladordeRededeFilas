@@ -1,6 +1,6 @@
 <div align="center">
   
-## Simulador de Rede de Filas (T1)
+## Simulador de Rede de Filas
   
 </div>
 
@@ -22,7 +22,7 @@ O simulador foi construído de forma nativa e não requer bibliotecas ou framewo
 Por se tratar de um script único, a estrutura do projeto é minimalista:
 ```text
 /
-└── t1.java   # Arquivo fonte contendo o simulador, classes de Fila e de Eventos
+└── SimuladordeRededeFilas.java   # Arquivo fonte contendo o simulador, classes de Fila e de Eventos
 ```
 
 ## 🚀 Como Executar
@@ -30,11 +30,11 @@ Abra o terminal na pasta onde o arquivo se encontra e execute os comandos de com
 
 1. **Compilação:**
    ```bash
-   javac t1.java
+   javac SimuladordeRededeFilas.java
    ```
 2. **Execução:**
    ```bash
-   java t1
+   java SimuladordeRededeFilas
    ```
 Os resultados da simulação serão impressos diretamente na saída padrão (console).
 
